@@ -27,10 +27,14 @@ for example:
 panel.solonodes.xyz:1024  
 >http://panel.solonodes.xyz:1024/
 
+```bash
 ln -s /etc/nginx/sites-available/FILENAME.conf /etc/nginx/sites-enabled/FILENAME.conf
+```
 you must type the full thing, you cannot use any shortcuts
 
+```bash
 systemctl restart nginx
+```
 
 To do the rest of the steps, they MUST have created an A record on cloudflare to the node IP.
 certbot

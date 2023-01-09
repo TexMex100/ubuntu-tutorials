@@ -10,12 +10,12 @@ For example dev.texmex100.tk
 nano /etc/nginx/sites-available/dev.sharkybot.conf
 ```  
 
+Paste this text in the file you created
 ```bash
-Paste this into the file (CTRL SHIFT V)
 server {
   server_name <domain>;
   location / {
-    proxy_pass http://191.96.52.56:<port>;
+    proxy_pass http://<ip>:<port>;
     proxy_buffering off;
     proxy_set_header X-Real-IP $remote_addr;
   }

@@ -42,6 +42,6 @@ certbot
 ```
 Type the number that shows the domain you put in the files above.
 
-If it asks to pick Redirect or No Redirect, pick Redirect
+If it asks to pick `Redirect` or `No Redirect`, pick `Redirect`
 
 done!

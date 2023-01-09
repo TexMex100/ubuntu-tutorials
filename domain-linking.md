@@ -1,8 +1,8 @@
-`nano /etc/nginx/sites-available/domain.conf`
-For example sharkybot.xyz
-`nano /etc/nginx/sites-available/sharkybot.conf` (not needed but better to organise)
-For example dev.sharkybot.xyz
-`nano /etc/nginx/sites-available/dev.sharkybot.conf`
+`nano /etc/nginx/sites-available/domain.conf`  
+For example sharkybot.xyz  
+`nano /etc/nginx/sites-available/sharkybot.conf` (not needed but better to organise)  
+For example dev.sharkybot.xyz  
+`nano /etc/nginx/sites-available/dev.sharkybot.conf`  
 
 
 Paste this into the file (CTRL SHIFT V)

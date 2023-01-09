@@ -1,11 +1,11 @@
 ```bash
 nano /etc/nginx/sites-available/domain.conf
 ```  
-For example sharkybot.xyz (not needed but better to organise)  
+For example texmex100.tk (not needed but better to organise)  
 ```bash
 nano /etc/nginx/sites-available/sharkybot.conf
 ```
-For example dev.sharkybot.xyz  
+For example dev.texmex100.tk  
 ```bash
 nano /etc/nginx/sites-available/dev.sharkybot.conf
 ```  

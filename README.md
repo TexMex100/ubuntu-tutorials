@@ -3,3 +3,6 @@ Here you can see what you can do with ubuntu and how you can do it. Its all expl
 
 ## Pterodactyl panel
 [Installing a Pterodactyl Panel](https://github.com/TexMex100/ubuntu-tutorials/edit/main/pterodactyl.md)
+
+## Pterodactyl panel
+[Installing a Pterodactyl Panel](https://github.com/TexMex100/ubuntu-tutorials/edit/main/pterodactyl.md)

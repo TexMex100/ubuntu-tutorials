@@ -25,7 +25,7 @@ server {
 proxypass ip:port must be EXACT to the servers IP address  
 for example:  
 panel.solonodes.xyz:1024  
-''http://panel.solonodes.xyz:1024/
+>http://panel.solonodes.xyz:1024/
 
 ln -s /etc/nginx/sites-available/FILENAME.conf /etc/nginx/sites-enabled/FILENAME.conf
 you must type the full thing, you cannot use any shortcuts

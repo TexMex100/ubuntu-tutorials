@@ -10,7 +10,7 @@ For example dev.texmex100.tk
 nano /etc/nginx/sites-available/dev.sharkybot.conf
 ```  
 
-
+```bash
 Paste this into the file (CTRL SHIFT V)
 server {
   server_name <domain>;
@@ -20,6 +20,7 @@ server {
     proxy_set_header X-Real-IP $remote_addr;
   }
 }
+```
 
 proxypass ip:port must be EXACT to the servers IP address
 for example:

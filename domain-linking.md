@@ -36,8 +36,10 @@ you must type the full thing, you cannot use any shortcuts
 systemctl restart nginx
 ```
 
-To do the rest of the steps, they MUST have created an A record on cloudflare to the node IP.
+**To do the rest of the steps, they MUST have created an A record on cloudflare to the node IP.**
+```bash
 certbot
+```
 Type the number that shows the domain you put in the files above.
 
 If it asks to pick Redirect or No Redirect, pick Redirect

@@ -4,7 +4,7 @@ nano /etc/nginx/sites-available/domain.conf
 For example sharkybot.xyz  
 ```bash
 nano /etc/nginx/sites-available/sharkybot.conf
-``` (not needed but better to organise)  
+```(not needed but better to organise)  
 For example dev.sharkybot.xyz  
 ```bash
 nano /etc/nginx/sites-available/dev.sharkybot.conf

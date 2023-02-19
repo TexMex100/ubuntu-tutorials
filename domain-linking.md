@@ -3,11 +3,11 @@ nano /etc/nginx/sites-available/domain.conf
 ```  
 For example **texmex100.tk** (not needed but better to organise)  
 ```bash
-nano /etc/nginx/sites-available/sharkybot.conf
+nano /etc/nginx/sites-available/texmex100.conf
 ```
 For example **dev.texmex100.tk**  
 ```bash
-nano /etc/nginx/sites-available/dev.sharkybot.conf
+nano /etc/nginx/sites-available/www.texmex100.conf
 ```  
 
 Paste this text in the file you created
@@ -24,8 +24,8 @@ server {
 
 proxypass ip:port must be EXACT to the servers IP address  
 for example:  
-panel.solonodes.xyz:1024  
->http://panel.solonodes.xyz:1024/
+test.texmex100.tk:1024  
+>http://test.texmex100.tk:1024/
 
 ```bash
 ln -s /etc/nginx/sites-available/FILENAME.conf /etc/nginx/sites-enabled/FILENAME.conf

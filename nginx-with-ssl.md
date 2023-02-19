@@ -79,15 +79,18 @@ server {
 }
 ```
 
+
 Then do:
 ```bash
 sudo ln -s /etc/nginx/sites-available/pterodactyl.conf /etc/nginx/sites-enabled/pterodactyl.conf
 ```
 
+
 Then restart nginx:
 ```bash
 sudo systemctl restart nginx
 ```
+
 
 Do this command to add a ssl cert to your website:
 ```bash
@@ -95,7 +98,8 @@ certbot certonly
 ```
 
 It might ask you to add a domain name, for example:
-test.texmex100.tk  
+test.texmex100.tk
+
 
 Then it asks you to add a web root.
 Just do this for example if you din't shange the file path:

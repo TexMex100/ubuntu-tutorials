@@ -1,4 +1,4 @@
-Remove this file first:
+Remove this file first (this will not effect the nginx functionality):
 ```bash
 rm /etc/nginx/sites-enabled/default
 ```

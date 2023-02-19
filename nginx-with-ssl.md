@@ -91,7 +91,7 @@ sudo systemctl restart nginx
 
 Do this command to add a ssl cert to your website:
 ```bash
-certbot certonly
+sudo certbot certonly
 ```
 
 It might ask you to add a domain name, for example:
@@ -101,6 +101,13 @@ Then it asks you to add a web root.
 Just do this for example if you din't shange the file path:
 ```bash
 /var/www/html/
+```
+
+The website.conf also requires 2 things.
+php8.1
+and php8.1-fpm
+```bash
+sudo apt install php8.1 php8.1-fpm
 ```
 
 Done, Now you have a website with a ssl certificate on Ubuntu!

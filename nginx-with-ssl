@@ -1,0 +1,4 @@
+Remove this file first:
+```bash
+rm /etc/nginx/sites-enabled/default
+```

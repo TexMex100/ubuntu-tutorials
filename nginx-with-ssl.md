@@ -88,3 +88,5 @@ Then restart nginx:
 ```
 sudo systemctl restart nginx
 ```
+
+Done, Now you have a website with a ssl certificate on Ubuntu!
